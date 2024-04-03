@@ -1,0 +1,90 @@
+body {
+    background-color: burlywood;
+}
+
+input {
+    background-color: bisque;
+}
+
+textarea {
+    background-color: bisque;
+}
+
+#menu {
+    background-color: darksalmon;
+    margin: -10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+#menu li {
+    padding: 20px;
+    display: inline;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: crimson;
+    font-size: 20px;
+}
+
+#menu li a:hover {
+    color: brown;
+}
+
+.center {
+    text-align: center;
+}
+
+.vertical {
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+}
+
+.vertical img {
+    width: 100%
+}
+
+.horizontal {
+    max-height: 300px;
+}
+
+.horizontal img {
+    height: 100%;
+    width: 300px;
+    height: 300px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card-item {
+    transition: 500ms;
+    display: flex;
+    margin: 10px;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 2px 2px;
+    opacity: 80%;
+    border-radius: 5px;
+}
+
+.card-item:hover {
+    opacity: 100%;
+    box-shadow: #212121 3px 3px;
+    transition: 500ms;
+}
+
+.card-img {
+    padding: 10px;
+}
+
+.card-text {
+    padding: 10px;
+    text-align: center;
+}
