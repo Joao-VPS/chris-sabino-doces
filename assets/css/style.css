@@ -10,6 +10,66 @@ textarea {
     background-color: bisque;
 }
 
+h1 {
+    font-family: cursive;
+    font-size: 36pt;
+    margin: 0px;
+    margin-bottom: 15px;
+    color: crimson;
+}
+
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+    font-size: large;
+    margin: auto;
+    padding: 10px;
+    max-width: 980px;
+    text-align: justify;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 10px;
+}
+
+form div {
+    width: 50%;
+    min-width: 170px;
+    margin-bottom: 20px;
+}
+
+input {
+    min-width: 80%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.submit {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    resize: none;
+}
+
+.textarea-container {
+    width: 100%;
+}
+
+#subtitle {
+    font-family: cursive;
+    margin-top: -15px;
+    margin-bottom: 30px;
+}
+
 #menu {
     background-color: darksalmon;
     margin: -10px;
@@ -44,39 +104,41 @@ textarea {
 }
 
 .vertical img {
-    width: 100%
-}
-
-.horizontal {
-    max-height: 300px;
+    width: 300px;
+    border-bottom: black solid 1px
 }
 
 .horizontal img {
-    height: 100%;
-    width: 300px;
-    height: 300px;
+    max-width: 300px;
+    max-height: 300px;
+    width: 36%;
+    height: fit-content;
+    border-right: black solid 1px
 }
 
 .card-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
+    max-width: 970px;
+    margin: 0 auto;
 }
 
 .card-item {
+    overflow: hidden;
     transition: 500ms;
     display: flex;
     margin: 10px;
     background-color: white;
-    border: 1px solid black;
-    box-shadow: 2px 2px;
+    border: black solid 1px;
+    box-shadow: 2px 2px 3px;
     opacity: 80%;
-    border-radius: 5px;
+    border-radius: 7px;
 }
 
 .card-item:hover {
     opacity: 100%;
-    box-shadow: #212121 3px 3px;
+    box-shadow: 3px 3px 3px;
     transition: 500ms;
 }
 
